@@ -1,3 +1,4 @@
 # cs5100project
 
-Also check out https://github.com/tk-codes/uno
+Brain Cable (Creator of Proximity)
+https://github.com/bacable/ProximityBasic
