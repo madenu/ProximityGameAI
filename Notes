@@ -1,0 +1,8 @@
+### Possible Heuristics
+* Consider the number of edge territories
+    * Consider how many fixed or walled-in territories there are
+    * Consider how difficult it would be to break through a wall
+
+### Implementation
+* Should we incorporate Markov Decision Process to determine difficulty of breaking through a wall?
+* Could use different agents for different difficulty levels of the game
