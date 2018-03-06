@@ -11,7 +11,7 @@
 \usepackage[backend = biber, style=numeric, sorting=none]{biblatex}
 \addbibresource{proposal.bib}
 \begin{document}
-\title{Probabilistic Adversarial Game Agent: Proximity}
+\title{Probabilistic Adversarial Game Agent : Proximity}
 \author{Matthias Denu and Donald Hamnett}
 \date{March 5, 2018}
 \maketitle
@@ -21,15 +21,15 @@
 Over the last few decades, the Artificial Intelligence (AI) field has made significant progress in matching and exceeding human performance in various games. Notable examples of this include IBM's Deep Blue \cite{deepblue} defeating chess world champion Kasparov in 1997, and more recently DeepMind's AlphaGo \cite{alphago} defeating world champion Go player Lee Sedol in 2016. The goal of this project is to replicate such success, albeit on a more modest level, in regards to the probabilistic Go-like game Proximity \cite{proximity}.
 \section*{Proximity}
 \par
-TODO
+The objective of the game is to outscore the opponent by winning territories. A player's score is the sum of the values on their won territories. A player wins a territory by placing one of their tiles on an unclaimed territory. On placing a tile, adjacent friendly territories will have their value increased by one point. Adjacent enemy territories will be captured if they have a lower value than that of the newly placed tile. Captured territories change color to that of the capturing player. Players take turns placing tiles to capture territory. Players receive a tile of a random value between 1 and 20 on each turn. The game is finished when there are no more unclaimed territories\cite{proximity, bacable_2015}.
 \section*{Strategy}
-\textbf{Expectimax Search}
+\subsection*{Expectimax Search}
 \par
-As this is a probabilistic game, our first inclination and main strategy is to build an agent which utilizes Expectimax search \cite{aima}. The nature of Proximity raises an interesting problem to solve, in that there is a duality to the probability associated with the game: not only is the opponent's move uncertain, but the effectiveness of a given move is not guaranteed. This leads to a challenge regarding creating an evaluation function which will maximize the probability of a win based on both factors.\\ \\
-\textbf{Other Strategies}\\ 
+As this is a probabilistic game, our first inclination and main strategy is to build an agent which utilizes Expectimax search \cite{aima}. The nature of Proximity raises an interesting problem to solve, in that there is a duality to the probability associated with the game: not only is the opponent's move uncertain, but the effectiveness of a given move is not guaranteed. This leads to a challenge regarding creating an evaluation function which will maximize the probability of a win based on both factors.
+\subsection*{Other Strategies}
 \par
-We see two more strategies as candidates for developing a sophisticated Proximity agent. The first is a deep feed-forward artificial neural network (ANN) \cite{bishop_2006} and the second is a reinforcement learning strategy\cite{rein}. Both ANNs and reinforcement learning were used in DeepMind's AlphaGo, in coordination with probabilistic search of the state space. In order to implement these models in the same language as the game itself, we plan to use the \emph{deeplearn.js} JavaScript framework \cite{deeplearn.js} \\ \\
-\textbf{Anticipated Challenges} \\ 
+We see two more strategies as candidates for developing a sophisticated Proximity agent. The first is a deep feed-forward artificial neural network (ANN) \cite{bishop_2006} and the second is a reinforcement learning strategy\cite{rein}. Both ANNs and reinforcement learning were used in DeepMind's AlphaGo, in coordination with probabilistic search of the state space. In order to implement these models in the same language as the game itself, we plan to use the \emph{deeplearn.js} JavaScript framework \cite{deeplearn.js} 
+\subsection*{Anticipated Challenges} 
 \par
 One luxury which the aforementioned DeepBlue and AlphaGo had which we do not is the resources and data available to them. This poses a challenge in terms of training our more advanced models. Ideally, we would be able to test against skilled players with different strategies of play, however, currently our models will train against the provided rudimentary AI agent. This is an issue we will attempt to address by adding variability to the AI agents, but we are aware this may be difficult to overcome. Thus, we will keep our goal modest and simply aim to outperform the Proximity's current AI agent.
 \section*{Results}
@@ -37,5 +37,14 @@ One luxury which the aforementioned DeepBlue and AlphaGo had which we do not is 
 We have not completely developed full evaluation metrics, but initially we plan to measure the wining percentage of Proximity's current AI agent against itself in a number of trials, and will later compare this performance to our model's performance against this agent.
 \end{multicols}
 \pagebreak
+\begin{center}
+\section*{\emph{This} Is The Game}
+\begin{figure}[H]
+\includegraphics[]{{gameplay.png}}
+\centering
+\caption{Proximity.}
+\centering
+\end{figure}
+\end{center}
 \printbibliography
 \end{document}
