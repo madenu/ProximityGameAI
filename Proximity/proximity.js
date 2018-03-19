@@ -156,18 +156,13 @@ function turnNext() {
     turn = loop(turn, 0, my.playerMax - 1);
     var player = players[turn];
     val = player.rounds[player.roundN++];
-    val = Math.max(1, Math.min(val, 20));
+    // val = Math.max(1, Math.min(val, 20));
     turns[turn] += val;
     b.redraw();
     if (players[turn].ai == 1) {
         turnQ = false;
-        setTimeout(aimove, 1000);
+        setTimeout(aimove, 200);
     }
-}
-
-function aimove() {
-    b.aimove();
-    turnQ = true;
 }
 
 function Board() {
@@ -184,27 +179,6 @@ function Board() {
     this.restart();
     this.redraw();
 }
-Board.prototype.aimove = function() {
-    var orig = copy2d(this.cells);
-    var bests = [];
-    for (var i = 0; i < this.colMax; i++) {
-        for (var j = 0; j < this.rowMax; j++) {
-            this.cells = copy2d(orig);
-            if (this.cells[i][j].typ != -1) continue;
-            this.doCell(i, j);
-            var diff = this.scoreGet();
-            bests.push([diff, i, j]);
-        }
-    }
-    bests.sort(function(a, b) {
-        return b[0] - a[0]
-    });
-    var bestNo = randomInt(0, Math.min(3, bests.length - 1));
-    var best = bests[bestNo];
-    this.cells = copy2d(orig);
-    this.doCell(best[1], best[2]);
-    turnNext();
-};
 Board.prototype.getLeft = function() {
     var n = 0;
     for (var i = 0; i < this.colMax; i++) {
