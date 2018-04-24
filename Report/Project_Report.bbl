@@ -1,0 +1,13 @@
+\begin{thebibliography}{}
+
+\bibitem[\protect\citeauthoryear{Kingma and Ba}{2014}]{adam}
+Kingma, D.~P., and Ba, J.
+\newblock 2014.
+\newblock Adam: {A} method for stochastic optimization.
+\newblock {\em CoRR} abs/1412.6980.
+
+\bibitem[\protect\citeauthoryear{Pjreddie}{}]{pjreddie}
+Pjreddie.
+\newblock pjreddie/cnn-primer.
+
+\end{thebibliography}
