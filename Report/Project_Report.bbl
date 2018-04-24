@@ -1,13 +1,74 @@
-\begin{thebibliography}{}
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.7 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
 
-\bibitem[\protect\citeauthoryear{Kingma and Ba}{2014}]{adam}
-Kingma, D.~P., and Ba, J.
-\newblock 2014.
-\newblock Adam: {A} method for stochastic optimization.
-\newblock {\em CoRR} abs/1412.6980.
 
-\bibitem[\protect\citeauthoryear{Pjreddie}{}]{pjreddie}
-Pjreddie.
-\newblock pjreddie/cnn-primer.
+\refsection{0}
+  \sortlist[entry]{nty/global/}
+    \entry{adam}{article}{}
+      \name{author}{2}{}{%
+        {{hash=1e072d74f4ac1094c9c26e1b592cea4a}{%
+           family={Kingma},
+           family_i={K\bibinitperiod},
+           given={Diederik\bibnamedelima P.},
+           given_i={D\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=8aa66e8231cc2fdbe67aa4f18ca970c6}{%
+           family={Ba},
+           family_i={B\bibinitperiod},
+           given={Jimmy},
+           given_i={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{c1670936fba733d1cb2d4c23bce95c6e}
+      \strng{fullhash}{c1670936fba733d1cb2d4c23bce95c6e}
+      \field{sortinit}{K}
+      \field{sortinithash}{a7d5b3aec5a0890aae7baf85a209abfc}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{CoRR}
+      \field{title}{Adam: {A} Method for Stochastic Optimization}
+      \field{volume}{abs/1412.6980}
+      \field{year}{2014}
+      \verb{eprint}
+      \verb 1412.6980
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1412.6980
+      \endverb
+    \endentry
+    \entry{pjreddie}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=f753ce33af6d61b36b592a3ffa4f05b4}{%
+           family={Pjreddie},
+           family_i={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{f753ce33af6d61b36b592a3ffa4f05b4}
+      \strng{fullhash}{f753ce33af6d61b36b592a3ffa4f05b4}
+      \field{sortinit}{P}
+      \field{sortinithash}{c0a4896d0e424f9ca4d7f14f2b3428e7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{GitHub}
+      \field{title}{pjreddie/cnn-primer}
+      \verb{url}
+      \verb https://github.com/pjreddie/cnn-primer/tree/master/1
+      \endverb
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
 
-\end{thebibliography}

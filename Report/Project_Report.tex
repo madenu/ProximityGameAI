@@ -10,7 +10,9 @@
 \usepackage[noend]{algpseudocode}
 \usepackage{amsmath}
 \usepackage{caption}
-
+\usepackage{biblatex}
+\bibliographystyle{numeric}
+\bibliography{Project_Report.bib}
 \graphicspath{{Figures/}}
 
 \frenchspacing
@@ -37,11 +39,7 @@
 % are an integral part of the 
 % pdfinfo script and must not be removed.
 %
-\pdfinfo{
-/Title (Input Your Paper Title Here)
-/Author (John Doe, Jane Doe)
-/Keywords (Input your keywords in this optional area)
-}
+
 
 \title{Intelligent Agents in a Probabilitsic Game : Proximity}
 \author{Matthias Denu \and Donald Hamnett\\ 
@@ -160,6 +158,5 @@ Below are the relevant parameters of the networks:
 	Epochs : Range $[10, 1000]$
 \end{itemize}
 
-\bibliography{Project_Report.bib}
-\bibliographystyle{aaai}
+\printbibliography
 \end{document}

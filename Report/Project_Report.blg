@@ -1,48 +1,15 @@
-This is BibTeX, Version 0.99d (TeX Live 2016)
-Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
-The top-level auxiliary file: Project_Report.aux
-The style file: aaai.bst
-Database file #1: Project_Report.bib.bib
-Warning--empty year in pjreddie
-You've used 2 entries,
-            2568 wiz_defined-function locations,
-            584 strings with 4727 characters,
-and the built_in function-call counts, 588 in all, are:
-= -- 58
-> -- 20
-< -- 0
-+ -- 6
-- -- 6
-* -- 39
-:= -- 108
-add.period$ -- 8
-call.type$ -- 2
-change.case$ -- 11
-chr.to.int$ -- 2
-cite$ -- 3
-duplicate$ -- 23
-empty$ -- 44
-format.name$ -- 9
-if$ -- 114
-int.to.chr$ -- 1
-int.to.str$ -- 0
-missing$ -- 1
-newline$ -- 13
-num.names$ -- 6
-pop$ -- 13
-preamble$ -- 1
-purify$ -- 13
-quote$ -- 0
-skip$ -- 23
-stack$ -- 0
-substring$ -- 10
-swap$ -- 4
-text.length$ -- 0
-text.prefix$ -- 0
-top$ -- 0
-type$ -- 16
-warning$ -- 1
-while$ -- 4
-width$ -- 4
-write$ -- 25
-(There was 1 warning)
+[0] Config.pm:343> INFO - This is Biber 2.5
+[1] Config.pm:346> INFO - Logfile is 'Project_Report.blg'
+[61] biber-darwin:290> INFO - === Tue Apr 24, 2018, 08:55:07
+[85] Biber.pm:351> INFO - Reading 'Project_Report.bcf'
+[197] Biber.pm:776> INFO - Found 2 citekeys in bib section 0
+[210] Biber.pm:3493> INFO - Processing section 0
+[230] Biber.pm:3657> INFO - Looking for bibtex format file 'Project_Report.bib' for section 0
+[231] bibtex.pm:1187> INFO - Decoding LaTeX character macros into UTF-8
+[232] bibtex.pm:1048> INFO - Found BibTeX data source 'Project_Report.bib'
+[256] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[257] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[257] Biber.pm:3306> INFO - Sorting list 'nty/global/' of type 'entry' with scheme 'nty' and locale 'en-US'
+[257] Biber.pm:3310> INFO - No sort tailoring available for locale 'en-US'
+[260] bbl.pm:526> INFO - Writing 'Project_Report.bbl' with encoding 'ascii'
+[261] bbl.pm:619> INFO - Output to Project_Report.bbl
