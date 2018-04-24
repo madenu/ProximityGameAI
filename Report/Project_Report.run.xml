@@ -79,6 +79,7 @@
       <file>Project_Report.bcf</file>
     </requires>
     <requires type="editable">
+      <file>sample.bib</file>
       <file>Project_Report.bib</file>
     </requires>
   </external>

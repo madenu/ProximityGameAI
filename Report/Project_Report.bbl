@@ -18,7 +18,230 @@
 
 
 \refsection{0}
-  \sortlist[entry]{nty/global/}
+  \sortlist[entry]{none/global/}
+    \entry{norving_russel_2013}{book}{}
+      \name{author}{2}{}{%
+        {{hash=9fe3172d4c1ba5f7fe26cc76379d4836}{%
+           family={Norving},
+           family_i={N\bibinitperiod},
+           given={Peter},
+           given_i={P\bibinitperiod}}}%
+        {{hash=f509695d30d2b0f8253a466b85d0f8ec}{%
+           family={Russel},
+           family_i={R\bibinitperiod},
+           given={Stuart},
+           given_i={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Pearson Education Limited}%
+      }
+      \strng{namehash}{7ba2bc34d22959a298eadd4b4f29561c}
+      \strng{fullhash}{7ba2bc34d22959a298eadd4b4f29561c}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Artificial intelligence: a modern approach}
+      \field{year}{2013}
+    \endentry
+    \entry{mcculloch_pitts_1943}{article}{}
+      \name{author}{2}{}{%
+        {{hash=1ae6ab4e836bed80fcfb750ad21df306}{%
+           family={Mcculloch},
+           family_i={M\bibinitperiod},
+           given={Warren\bibnamedelima S.},
+           given_i={W\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=c5a56e799cdf785e814246c091d36e73}{%
+           family={Pitts},
+           family_i={P\bibinitperiod},
+           given={Walter},
+           given_i={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{029b36279043fa623c4a2a516a02736b}
+      \strng{fullhash}{029b36279043fa623c4a2a516a02736b}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Bulletin of Mathematical Biophysics}
+      \field{number}{4}
+      \field{title}{A logical calculus of the ideas immanent in nervous activity}
+      \field{volume}{5}
+      \field{year}{1943}
+      \field{pages}{115\bibrangedash 133}
+      \range{pages}{19}
+      \verb{doi}
+      \verb 10.1007/bf02478259
+      \endverb
+    \endentry
+    \entry{luger_2009}{book}{}
+      \name{author}{1}{}{%
+        {{hash=5614aa8dcebc9a301a404358797b7e17}{%
+           family={Luger},
+           family_i={L\bibinitperiod},
+           given={George\bibnamedelima F.},
+           given_i={G\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Pearson Addison-Wesley}%
+      }
+      \strng{namehash}{5614aa8dcebc9a301a404358797b7e17}
+      \strng{fullhash}{5614aa8dcebc9a301a404358797b7e17}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Artificial intelligence: structures and strategies for complex problem solving}
+      \field{year}{2009}
+    \endentry
+    \entry{rosenblatt}{article}{}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{SpringerReference}
+      \field{title}{Perceptron Algorithm, 1959; Rosenblatt}
+      \verb{doi}
+      \verb 10.1007/springerreference_57806
+      \endverb
+    \endentry
+    \entry{mitchell_1997}{book}{}
+      \name{author}{1}{}{%
+        {{hash=bcd7526dd1cfb546aa6337f801dfc4cd}{%
+           family={Mitchell},
+           family_i={M\bibinitperiod},
+           given={Tom\bibnamedelima M.},
+           given_i={T\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {McGraw-Hill}%
+      }
+      \strng{namehash}{bcd7526dd1cfb546aa6337f801dfc4cd}
+      \strng{fullhash}{bcd7526dd1cfb546aa6337f801dfc4cd}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Machine Learning}
+      \field{year}{1997}
+    \endentry
+    \entry{widrow_hoff_1960}{article}{}
+      \name{author}{2}{}{%
+        {{hash=e3003278df3779b88039920bcf088264}{%
+           family={Widrow},
+           family_i={W\bibinitperiod},
+           given={B.},
+           given_i={B\bibinitperiod}}}%
+        {{hash=1ac1e9d58b4c46fc384fc2c2f4e73a43}{%
+           family={Hoff},
+           family_i={H\bibinitperiod},
+           given={M.\bibnamedelimi E.},
+           given_i={M\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{f317f26f1af1ef68feacb3cffe5b7167}
+      \strng{fullhash}{f317f26f1af1ef68feacb3cffe5b7167}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Adaptive Switching Circuits}
+      \field{year}{1960}
+      \verb{doi}
+      \verb 10.21236/ad0241531
+      \endverb
+    \endentry
+    \entry{pjreddie}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=f753ce33af6d61b36b592a3ffa4f05b4}{%
+           family={Pjreddie},
+           family_i={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{f753ce33af6d61b36b592a3ffa4f05b4}
+      \strng{fullhash}{f753ce33af6d61b36b592a3ffa4f05b4}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{GitHub}
+      \field{title}{pjreddie/cnn-primer}
+      \verb{url}
+      \verb https://github.com/pjreddie/cnn-primer/tree/master/1
+      \endverb
+    \endentry
+    \entry{mnih}{article}{}
+      \name{author}{11}{}{%
+        {{hash=f7d23cfe4ca0e6bf7a8c251bfa78aca6}{%
+           family={Mnih},
+           family_i={M\bibinitperiod},
+           given={Volodymyr},
+           given_i={V\bibinitperiod}}}%
+        {{hash=481308b301166b521c74fde6566e97e6}{%
+           family={Kavukcuoglu},
+           family_i={K\bibinitperiod},
+           given={Koray},
+           given_i={K\bibinitperiod}}}%
+        {{hash=89dbd30410c2085cd059f32c57d4593e}{%
+           family={Silver},
+           family_i={S\bibinitperiod},
+           given={David},
+           given_i={D\bibinitperiod}}}%
+        {{hash=6c4f5fb067e8e13379430f0331730a93}{%
+           family={Rusu},
+           family_i={R\bibinitperiod},
+           given={Andrei\bibnamedelima A.},
+           given_i={A\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=1cbd91f7404b2298b46bb46c47c08251}{%
+           family={Veness},
+           family_i={V\bibinitperiod},
+           given={Joel},
+           given_i={J\bibinitperiod}}}%
+        {{hash=cc3634250c84939cbfabdf623e17d51e}{%
+           family={Bellemare},
+           family_i={B\bibinitperiod},
+           given={Marc\bibnamedelima G.},
+           given_i={M\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=dfca94b0427da7f9088af596e23b46c0}{%
+           family={Graves},
+           family_i={G\bibinitperiod},
+           given={Alex},
+           given_i={A\bibinitperiod}}}%
+        {{hash=9449802bcb467309c0ebced658096818}{%
+           family={Riedmiller},
+           family_i={R\bibinitperiod},
+           given={Martin},
+           given_i={M\bibinitperiod}}}%
+        {{hash=17c7c44c9969181de3e12eb87600ae04}{%
+           family={Fidjeland},
+           family_i={F\bibinitperiod},
+           given={Andreas\bibnamedelima K.},
+           given_i={A\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=46cc21fb5dec973c05ceb0f321e02ca0}{%
+           family={Ostrovski},
+           family_i={O\bibinitperiod},
+           given={Georg},
+           given_i={G\bibinitperiod}}}%
+        {{hash=a6f71317d170c3d8fdf0ecfd3bda1b6b}{%
+           prefix={et},
+           prefix_i={e\bibinitperiod},
+           family={al.},
+           family_i={a\bibinitperiod}}}%
+      }
+      \strng{namehash}{aff24b211b34cdd515b2fd148ce0c920}
+      \strng{fullhash}{a0dbed46871c26fa63df3eeaee6721a2}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature}
+      \field{number}{7540}
+      \field{title}{Human-level control through deep reinforcement learning}
+      \field{volume}{518}
+      \field{year}{2015}
+      \field{pages}{529\bibrangedash 533}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1038/nature14236
+      \endverb
+    \endentry
     \entry{adam}{article}{}
       \name{author}{2}{}{%
         {{hash=1e072d74f4ac1094c9c26e1b592cea4a}{%
@@ -34,8 +257,8 @@
       }
       \strng{namehash}{c1670936fba733d1cb2d4c23bce95c6e}
       \strng{fullhash}{c1670936fba733d1cb2d4c23bce95c6e}
-      \field{sortinit}{K}
-      \field{sortinithash}{a7d5b3aec5a0890aae7baf85a209abfc}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprinttype}{arXiv}
@@ -50,22 +273,22 @@
       \verb http://arxiv.org/abs/1412.6980
       \endverb
     \endentry
-    \entry{pjreddie}{misc}{}
+    \entry{keon}{misc}{}
       \name{author}{1}{}{%
-        {{hash=f753ce33af6d61b36b592a3ffa4f05b4}{%
-           family={Pjreddie},
-           family_i={P\bibinitperiod}}}%
+        {{hash=f16ea028dcc5cca9f23e181e462a20a8}{%
+           family={Keon},
+           family_i={K\bibinitperiod}}}%
       }
-      \strng{namehash}{f753ce33af6d61b36b592a3ffa4f05b4}
-      \strng{fullhash}{f753ce33af6d61b36b592a3ffa4f05b4}
-      \field{sortinit}{P}
-      \field{sortinithash}{c0a4896d0e424f9ca4d7f14f2b3428e7}
+      \strng{namehash}{f16ea028dcc5cca9f23e181e462a20a8}
+      \strng{fullhash}{f16ea028dcc5cca9f23e181e462a20a8}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{GitHub}
-      \field{title}{pjreddie/cnn-primer}
+      \field{title}{keon/deep-q-learning}
       \verb{url}
-      \verb https://github.com/pjreddie/cnn-primer/tree/master/1
+      \verb https://github.com/keon/deep-q-learning/blob/master/dqn.py
       \endverb
     \endentry
   \endsortlist
